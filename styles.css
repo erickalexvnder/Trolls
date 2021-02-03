@@ -1,0 +1,60 @@
+/* 1/28/2021 Troll Game Project */
+/* font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Lacquer', cursive;
+font-family: 'Permanent Marker', cursive; */
+
+
+
+
+body {
+	background-image: url(forest.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	font-family: 'Lacquer', cursive;
+	text-align: center;
+	color: slategrey ;
+	font-size: 4em;
+	text-shadow: black 4px 5px 12px, red -2px 4px 2.5px;
+}
+
+div#button {
+	background-color: red;
+	width: 200px;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 3em;
+	text-align: center; 
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 90%;
+	border-radius: 15px;
+	transition: all 1.5s;
+}
+
+div#button:hover {
+	background-color: slategrey;
+	font-size: 3em;
+	cursor: pointer ;
+}
+
+h2#result {
+	font-family: 'Alfa Slab One', cursive;
+	color: white;
+	font-size: 3.5em;
+	text-align: center;
+	color: darkgoldenrod ;
+	text-shadow: black 4px 5px 12px, red -2px 4px 2.5px;
+}
+
+h2#death {
+	font-family: 'Permanent Marker', cursive;
+	color: white;
+	font-size: 4em;
+	text-align: center;
+	color: darkgoldenrod ;
+	text-shadow: black 4px 5px 12px, red -2px 4px 2.5px;
+}
+
